@@ -41,9 +41,12 @@ function arrayCount(array) {
             count = 1;
         }
     }
-    Result.value = max[0]
-    Result.count = max[1]
-    console.log(Result);
+    // Result.value = max[0]
+    // Result.count = max[1]
+    console.log({
+        "Value:" : max[0],
+        "Count:" : max[1],
+});
 }
 
 
